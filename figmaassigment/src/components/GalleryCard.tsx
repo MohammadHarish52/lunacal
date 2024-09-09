@@ -44,14 +44,26 @@ export function GalleryCard() {
             <Button
               variant="ghost"
               size="icon"
-              className="w-[45px] h-[45px] bg-[#28292F] text-gray-300 hover:bg-[#363940] rounded-full shadow-[13.49px_16.87px_67.47px_8.43px_#000000,-8.43px_-16.87px_50.6px_-16.87px_#000000]"
+              className="w-[45px] h-[45px] text-gray-300 hover:bg-[#363940] rounded-full"
+              style={{
+                background:
+                  "linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%)",
+                boxShadow:
+                  "4px 5px 30px 5px #101213, -5px -3px 30px -10px #96BEE7",
+              }}
             >
               <HiArrowLeft className="h-4 w-4" />
             </Button>
             <Button
               variant="ghost"
               size="icon"
-              className="w-[45px] h-[45px] bg-[#28292F] text-gray-300 hover:bg-[#363940] rounded-full shadow-[13.49px_16.87px_67.47px_8.43px_#000000,-8.43px_-16.87px_50.6px_-16.87px_#000000]"
+              className="w-[45px] h-[45px] text-gray-300 hover:bg-[#363940] rounded-full"
+              style={{
+                background:
+                  "linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%)",
+                boxShadow:
+                  "4px 5px 30px 5px #101213, -5px -3px 30px -10px #96BEE7",
+              }}
             >
               <HiArrowRight className="h-4 w-4" />
             </Button>
