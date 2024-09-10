@@ -32,7 +32,7 @@ export function GalleryCard() {
           <h3 className="w-[149px] h-[62px] mb-4 sm:mb-0 bg-[#171717] rounded-[20px] shadow-[inset_0px_4px_10px_2px_rgba(0,0,0,0.25)] flex items-center justify-center text-lg font-semibold text-white">
             Gallery
           </h3>
-          <div className="flex items-center space-x-2">
+          <div className="flex flex-wrap justify-center sm:justify-end items-center gap-2 w-full sm:w-auto">
             <Button
               variant="ghost"
               size="sm"
@@ -41,32 +41,34 @@ export function GalleryCard() {
             >
               <span className="rotate-180">+ ADD IMAGE</span>
             </Button>
-            <Button
-              variant="ghost"
-              size="icon"
-              className="w-[45px] h-[45px] text-gray-300 hover:bg-[#363940] rounded-full"
-              style={{
-                background:
-                  "linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%)",
-                boxShadow:
-                  "4px 5px 30px 5px #101213, -5px -3px 30px -10px #96BEE7",
-              }}
-            >
-              <HiArrowLeft className="h-4 w-4" />
-            </Button>
-            <Button
-              variant="ghost"
-              size="icon"
-              className="w-[45px] h-[45px] text-gray-300 hover:bg-[#363940] rounded-full"
-              style={{
-                background:
-                  "linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%)",
-                boxShadow:
-                  "4px 5px 30px 5px #101213, -5px -3px 30px -10px #96BEE7",
-              }}
-            >
-              <HiArrowRight className="h-4 w-4" />
-            </Button>
+            <div className="flex items-center gap-2">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="w-[45px] h-[45px] text-gray-300 hover:bg-[#363940] rounded-full"
+                style={{
+                  background:
+                    "linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%)",
+                  boxShadow:
+                    "4px 5px 30px 5px #101213, -5px -3px 30px -10px #96BEE7",
+                }}
+              >
+                <HiArrowLeft className="h-4 w-4" />
+              </Button>
+              <Button
+                variant="ghost"
+                size="icon"
+                className="w-[45px] h-[45px] text-gray-300 hover:bg-[#363940] rounded-full"
+                style={{
+                  background:
+                    "linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%)",
+                  boxShadow:
+                    "4px 5px 30px 5px #101213, -5px -3px 30px -10px #96BEE7",
+                }}
+              >
+                <HiArrowRight className="h-4 w-4" />
+              </Button>
+            </div>
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 md:gap-4">
